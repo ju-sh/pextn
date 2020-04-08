@@ -11,7 +11,7 @@ setuptools.setup(
     description="A simple, lazy utility to display information about a file extension.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://nogithub.com/j/pextn",
+    url="https://github.com/ju-sh/pextn",
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
     classifiers=[
@@ -24,8 +24,8 @@ setuptools.setup(
         "Natural Language :: English",
     ],
     project_urls={
-        'Changelog': 'https://github.com/user/project/CHANGELOG.rst',
-        'Issue Tracker': 'https://github.com/user/project/issues',
+        #'Changelog': 'https://github.com/user/project/CHANGELOG.rst',
+        'Issue Tracker': 'https://github.com/ju-sh/pextn/issues',
     },
     install_requires=[],
     python_requires='>=3.6',
